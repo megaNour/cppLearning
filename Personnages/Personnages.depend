@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1540216927 source:c:\users\502728327\codeblocks\personnages\main.cpp
+	<iostream>
+	"Personnage.h"
+	"Arme.h"
+
+1540216687 source:c:\users\502728327\codeblocks\personnages\src\personnage.cpp
+	"Personnage.h"
+
+1540216585 c:\users\502728327\codeblocks\personnages\include\personnage.h
+	<string>
+	"Arme.h"
+
+1540216500 source:c:\users\502728327\codeblocks\personnages\src\arme.cpp
+	<string>
+	"Arme.h"
+
+1540216492 c:\users\502728327\codeblocks\personnages\include\arme.h
+	<string>
+

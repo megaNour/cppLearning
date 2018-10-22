@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1539690822 source:c:\users\502728327\codeblocks\mystery\main.cpp
+	<iostream>
+	<string>
+	<ctime>
+	<cstdlib>
+

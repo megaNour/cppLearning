@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1539684549 source:c:\users\502728327\codeblocks\helloworld\main.cpp
+	<iostream>
+	<typeinfo>
+	<vector>
+	"math.h"
+	"vector.h"
+	<sstream>
+	<fstream>
+	<string>
+
+1539684130 source:c:\users\502728327\codeblocks\helloworld\math.cpp
+	"math.h"
+
+1539597898 c:\users\502728327\codeblocks\helloworld\math.h
+
+1539609797 source:c:\users\502728327\codeblocks\helloworld\vector.cpp
+	<iostream>
+	<vector>
+
+1539609809 c:\users\502728327\codeblocks\helloworld\vector.h
+	<vector>
+
