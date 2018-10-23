@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1540297766 source:c:\users\502728327\codeblocks\surchargeoperateurs\main.cpp
+	<iostream>
+	"Duree.h"
+	"DatePerso.h"
+
+1540297185 source:c:\users\502728327\codeblocks\surchargeoperateurs\src\duree.cpp
+	<iostream>
+	"Duree.h"
+
+1540297048 c:\users\502728327\codeblocks\surchargeoperateurs\include\duree.h
+	<iostream>
+
+1540298773 c:\users\502728327\codeblocks\surchargeoperateurs\include\dateperso.h
+	<iostream>
+
+1540298535 source:c:\users\502728327\codeblocks\surchargeoperateurs\src\dateperso.cpp
+	"DatePerso.h"
+
+1540298456 source:c:\users\502728327\codeblocks\surchargeoperateurs\src\chocolat.cpp
+	"Chocolat.h"
+
+1540298456 c:\users\502728327\codeblocks\surchargeoperateurs\include\chocolat.h
+
