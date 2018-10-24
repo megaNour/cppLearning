@@ -18,3 +18,14 @@
 1540393490 c:\users\502728327\codeblocks\cpplearning\zfraction\include\zfraction.h
 	<iostream>
 
+1540415024 source:/home/b/git/cppLearning/ZFraction/main.cpp
+	<iostream>
+	"ZFraction.h"
+
+1540414861 /home/b/git/cppLearning/ZFraction/include/ZFraction.h
+	<iostream>
+
+1540415631 source:/home/b/git/cppLearning/ZFraction/src/ZFraction.cpp
+	"ZFraction.h"
+	<iostream>
+
