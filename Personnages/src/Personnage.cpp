@@ -40,7 +40,7 @@ void Personnage::boirePotion(int quantitePotion)
 
 void Personnage::changerArme(Arme &autre)
 {
-    arme = new Arme(autre);
+    this->arme = new Arme(autre);
 }
 
 void Personnage::changerArme(std::string nomNouvelleArme, int degatsNouvelleArme)
@@ -50,7 +50,7 @@ void Personnage::changerArme(std::string nomNouvelleArme, int degatsNouvelleArme
 
 void Personnage::changerArme(Arme *arme)
 {
-    arme = new Arme(*arme);
+    this->arme = new Arme(*arme);
 }
 
 bool Personnage::estVivant() const

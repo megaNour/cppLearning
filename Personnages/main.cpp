@@ -18,7 +18,7 @@ int main()
     perso2.changerArme(epee);
     perso3.changerArme(epee);
     epee.changer("epee mayonaise", 50);
-    perso2.changerArme(epee);
+    perso2.changerArme(&epee);
     epee.changer("epee chocolat", 80);
     perso3.changerArme(epee);
     cout << "perso1: " << perso1.afficher() <<  endl;
