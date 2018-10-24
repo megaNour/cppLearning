@@ -42,14 +42,17 @@ void ZFraction::simplify()
 }
 
 
-ZFraction& ZFraction::add(ZFraction const& fraction2) const
+ZFraction* ZFraction::add(ZFraction const& fraction2) const
 {
     int num = (this->num*fraction2.den) + (fraction2.num*this->den);
     int den = (this->den*fraction2.den);
     ZFraction resultat(num, den);
     resultat.simplify();
-    std::cout << "coucou3 " << resultat.toString() << std::endl;
-    ZFraction& result(resultat);
+    std::cout << "coucou3 " << resultat << std::endl;
+    std::cout << "coucou3.6 " << resultat << std::endl;
+    ZFraction* result(&resultat);
+    std::cout << "coucou3.7 " << result << std::endl;
+    std::cout << "coucou3.8 " << &resultat << std::endl;
     return result;
 }
 
@@ -74,14 +77,12 @@ bool operator!=(ZFraction const& fraction1, ZFraction const& fraction2)
 ZFraction& operator+(ZFraction const& fraction1, ZFraction const& fraction2)
 {
     std::cout << "coucou2" << std::endl;
-    ZFraction resultat = fraction1.add(fraction2);
-    ZFraction &result(resultat);
-    std::cout << "coucou4 " << resultat.toString() << " " << resultat.getValue() << std::endl;
-    std::cout << "coucou4 " << resultat.toString() << " " << resultat.getValue() << std::endl;
-    std::cout << "coucou4 " << resultat.toString() << " " << resultat.getValue() << std::endl;
+    ZFraction* resultat = fraction1.add(fraction2);
+    ZFraction &result(*resultat);
+    std::cout << "coucou4 " << resultat->toString() << " " << resultat->getValue() << std::endl;
     return result;
-
 }
+
 ZFraction& operator-(ZFraction const& fraction1, ZFraction const& fraction2)
 {
     return fraction1.substract(fraction2);

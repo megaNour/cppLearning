@@ -18,3 +18,22 @@
 1540216492 c:\users\502728327\codeblocks\personnages\include\arme.h
 	<string>
 
+1540396611 source:c:\users\502728327\codeblocks\cpplearning\personnages\main.cpp
+	<iostream>
+	"Personnage.h"
+	"Arme.h"
+
+1540396259 c:\users\502728327\codeblocks\cpplearning\personnages\include\personnage.h
+	<string>
+	"Arme.h"
+
+1540216492 c:\users\502728327\codeblocks\cpplearning\personnages\include\arme.h
+	<string>
+
+1540395369 source:c:\users\502728327\codeblocks\cpplearning\personnages\src\arme.cpp
+	<string>
+	"Arme.h"
+
+1540396647 source:c:\users\502728327\codeblocks\cpplearning\personnages\src\personnage.cpp
+	"Personnage.h"
+

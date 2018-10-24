@@ -10,7 +10,7 @@ class ZFraction
         virtual ~ZFraction();
         bool equals(ZFraction const& other) const;
         bool isSmaller(ZFraction const& other) const;
-        ZFraction& add(ZFraction const& other) const;
+        ZFraction* add(ZFraction const& other) const;
         ZFraction& substract(ZFraction const& other) const;
         void operator+=(ZFraction const& other);
         double getValue() const;
