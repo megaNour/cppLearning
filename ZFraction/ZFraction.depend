@@ -7,3 +7,14 @@
 
 1540301118 c:\users\502728327\codeblocks\zfraction\include\zfraction.h
 
+1540383498 source:c:\users\502728327\codeblocks\cpplearning\zfraction\main.cpp
+	<iostream>
+	"ZFraction.h"
+
+1540383352 source:c:\users\502728327\codeblocks\cpplearning\zfraction\src\zfraction.cpp
+	"ZFraction.h"
+	<iostream>
+
+1540381344 c:\users\502728327\codeblocks\cpplearning\zfraction\include\zfraction.h
+	<iostream>
+
