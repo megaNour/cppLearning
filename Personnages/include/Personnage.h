@@ -15,6 +15,7 @@ public:
     void boirePotion(int quantitePotion);
     void changerArme(std::string nomNouvelleArme, int degatsNouvelleArme);
     void changerArme(Arme *arme);
+    void changerArme(Arme &arme);
     bool estVivant() const;
     std::string afficher() const;
 private:
