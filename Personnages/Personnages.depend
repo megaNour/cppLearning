@@ -37,17 +37,19 @@
 1540396647 source:c:\users\502728327\codeblocks\cpplearning\personnages\src\personnage.cpp
 	"Personnage.h"
 
-1540398939 source:/home/b/git/cppLearning/Personnages/src/Arme.cpp
+1540451962 source:/home/b/git/cppLearning/Personnages/src/Arme.cpp
 	<string>
 	"Arme.h"
 
-1540233262 /home/b/git/cppLearning/Personnages/include/Arme.h
+1540450111 /home/b/git/cppLearning/Personnages/include/Arme.h
 	<string>
 
-1540421130 source:/home/b/git/cppLearning/Personnages/main.cpp
+1540452780 source:/home/b/git/cppLearning/Personnages/main.cpp
 	<iostream>
 	"Personnage.h"
 	"Arme.h"
+	"SandBoxObject.h"
+	<typeinfo>
 
 1540418926 /home/b/git/cppLearning/Personnages/include/Personnage.h
 	<string>
@@ -55,4 +57,9 @@
 
 1540421268 source:/home/b/git/cppLearning/Personnages/src/Personnage.cpp
 	"Personnage.h"
+
+1540450180 /home/b/git/cppLearning/Personnages/include/SandBoxObject.h
+
+1540450181 source:/home/b/git/cppLearning/Personnages/src/SandBoxObject.cpp
+	"SandBoxObject.h"
 

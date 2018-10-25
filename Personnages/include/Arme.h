@@ -7,6 +7,7 @@ class Arme
     public:
         virtual ~Arme();
         Arme();
+        Arme(Arme const& other);
         Arme(std::string nom, int degats);
         void changer(std::string nom, int degats);
         std::string afficher() const;

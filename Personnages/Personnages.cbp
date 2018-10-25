@@ -36,9 +36,11 @@
 		</Compiler>
 		<Unit filename="include/Arme.h" />
 		<Unit filename="include/Personnage.h" />
+		<Unit filename="include/SandBoxObject.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Arme.cpp" />
 		<Unit filename="src/Personnage.cpp" />
+		<Unit filename="src/SandBoxObject.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

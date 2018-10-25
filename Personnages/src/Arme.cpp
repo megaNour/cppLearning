@@ -6,6 +6,11 @@ Arme::Arme(): nom("Epee rouillee"), degats(10)
     //ctor
 }
 
+Arme::Arme(Arme const& other): nom(other.nom), degats(other.degats)
+{
+    //ctor
+}
+
 Arme::Arme(std::string nom, int degats): nom(nom), degats(degats)
 {
     //ctor
