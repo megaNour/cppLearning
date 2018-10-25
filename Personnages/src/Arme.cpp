@@ -1,7 +1,7 @@
 #include <string>
 #include "Arme.h"
 
-Arme::Arme(): nom("Epee rouillee"), degats(10)
+Arme::Arme(): nom("main nue"), degats(1)
 {
     //ctor
 }

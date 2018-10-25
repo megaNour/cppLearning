@@ -12,6 +12,7 @@
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
+					<Add option="-Wall" />
 					<Add option="-g" />
 					<Add directory="include" />
 				</Compiler>
@@ -35,10 +36,12 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Arme.h" />
+		<Unit filename="include/Lame.h" />
 		<Unit filename="include/Personnage.h" />
 		<Unit filename="include/SandBoxObject.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Arme.cpp" />
+		<Unit filename="src/Lame.cpp" />
 		<Unit filename="src/Personnage.cpp" />
 		<Unit filename="src/SandBoxObject.cpp" />
 		<Extensions>

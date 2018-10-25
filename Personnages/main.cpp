@@ -1,25 +1,41 @@
 #include <iostream>
 #include "Personnage.h"
 #include "Arme.h"
+#include "Lame.h"
 #include "SandBoxObject.h"
 #include <typeinfo>
 
 using namespace std;
 
+void method(Arme &arg){
+    cout << arg.afficher();
+}
+
 int main()
 {
-    int nb(5);
-    int& rNb(nb);
-    Arme pizza;
-//    Arme pizzaStrike("pizza stroke from the air", 90);
-    Arme& pizzaStrike(pizza);
-    SandBoxObject pistolet;
-    cout << "adresse org: "<< &pizza << endl;
-    cout << "adresse ref: " << &pizzaStrike << endl;
-    Arme *ptrPizza(&pizza);
-    cout << "adresse ptr: " << ptrPizza << endl;
-    cout << "adresse ptr: " << &ptrPizza << endl;
-    cout << "type pté: " << typeid(*ptrPizza) .name() << endl;
+    int nb;
+    Lame lame;
+    cout << lame.afficher() << endl;
+//    int& rNb(nb);
+//    Arme pizza;
+////    Arme pizzaStrike("pizza stroke from the air", 90);
+//    Arme& pizzaStrike(pizza);
+//    SandBoxObject pistolet;
+//    cout << "adresse org: "<< &pizza << endl;
+//    cout << "adresse ref: " << &pizzaStrike << endl;
+//    Arme *ptrPizza(&pizza);
+//    cout << "adresse ptr: " << ptrPizza << endl;
+//    cout << "adresse ptr: " << &ptrPizza << endl;
+//    cout << "type pté: " << typeid(*ptrPizza).name() << endl;
+//    cout << typeid(pizza).name() << endl;
+
+//    Arme pizza;
+//
+//    pizza.afficher();
+//
+//    method(pizza);
+
+
 //    SandBoxObject* ptr = new SandBoxObject();
 //    cout << &ptr << endl;
 //    cout << *&ptr << endl;
@@ -54,3 +70,4 @@ int main()
 //    cout << "perso3: " << perso3.afficher() <<  endl;
     return 0;
 }
+
